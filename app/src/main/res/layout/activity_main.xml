@@ -137,3 +137,6 @@
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 </ScrollView>
+
+<!--Para que serve o wrap_content? WRAP_CONTENT é uma propriedade que define o tamanho (altura ou largura) da view baseado no seu conteúdo.
+ Este valor indica que o tamanho deste elemento deve se ajustar ao conteúdo atribuído a ele.-->

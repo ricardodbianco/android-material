@@ -13,5 +13,29 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
+
+        insertListeners()
+    }
+
+    private fun insertListeners() {
+        binding.cvButtons.setOnClickListener {
+            startActivity(ButtonsActivity.createIntent(this))
+        }
+
+        binding.cvTextFields.setOnClickListener {
+            startActivity(TextFieldsActivity.createIntent(this))
+        }
+
+        binding.cvBottomSheets.setOnClickListener {
+            ModalBottomSheet.start(supportFragmentManager)
+        }
+
+        binding.cvTopAppBar.setOnClickListener {
+            startActivity(TopAppBatActivity.createIntent(this))
+        }
+
+        binding.cvBottomAppBar.setOnClickListener {
+            startActivity(BottomAppBarActivity.createIntent(this))
+        }
     }
 }
