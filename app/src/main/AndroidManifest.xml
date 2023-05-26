@@ -27,6 +27,8 @@
         <activity android:name=".TextFieldsActivity" />
         <activity android:name=".TopAppBatActivity" />
         <activity android:name=".BottomAppBarActivity" />
+        <activity android:name=".SnackbarActivity" />
+        <activity android:name=".BottomNavigationActivity" />
 
     </application>
 

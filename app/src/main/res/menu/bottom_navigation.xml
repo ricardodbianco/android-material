@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:iconTint="#fff"
+        android:title="Home"
+        android:contentDescription="ontent_description_favorite"/>
+
+    <item
+        android:id="@+id/stars"
+        android:icon="@drawable/ic_stars"
+        android:title="Stars"
+        android:contentDescription="content_description_search" />
+
+</menu>
+
+<!-- Apenas dois items utilizado no exemplo, porém, o Bottom Navigation, é utilizado
+quando se tem 3 ou mais (até 5) destinos.-->
